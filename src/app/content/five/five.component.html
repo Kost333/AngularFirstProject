@@ -4,17 +4,21 @@
       Todo App
     </div>
     <div class="addToDo">
-      <input type="text" class="inputAdd">
-      <button class="addBtn"> Add </button>
+      <input type="text" class="inputAdd" placeholder="Add a new to do" [(ngModel)]="newToDo">
+      <button class="addBtn" (click)="addItem()"> Add </button>
+    </div>
+    <div class="addToDo">
+      <input type="text" class="inputAdd" placeholder="Search" [(ngModel)]="searchQuery" (input)="filterTodos()">
     </div>
     <div class="toDos">
-      <div class="toDo" *ngFor="let todo of todos">
-          <div class="titleToDo" >
-            {{ todo.title }}
-          </div>
-          <div>
-            <i style="font-size: 24px" class="fa recycleBin">&#xf014;</i>
-          </div>
+      <div class="toDo" *ngFor="let todo of (filteredTodos.length > 0 ? filteredTodos : todos) ; let i=index;">
+        <p class="titleToDo">
+          {{ i + 1 }} - {{ todo.title }}
+        </p>
+        <div class="removeAndCheckbox">
+          <input type="checkbox" [(ngModel)]="todo.completed" class="checkbox">
+          <i style="font-size: 24px" class="fa recycleBin" (click)="removeItem(i)">&#xf014;</i>
+        </div>
       </div>
     </div>
   </div>

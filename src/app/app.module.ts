@@ -3,14 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {HeaderComponent} from "./header/header.component";
-import {ContentComponent} from "./content/content.component";
-import {FooterComponent} from "./footer/footer.component";
-import { FirstComponent } from './content/first/first.component';
-import { SecondComponent } from './content/second/second.component';
-import { ThirdComponent } from './content/third/third.component';
-import { FourthComponent } from './content/fourth/fourth.component';
-import {CommonModule} from "@angular/common";
+import { HeaderComponent } from "./header/header.component";
+import { ContentComponent } from "./content/content.component";
+import { FooterComponent } from "./footer/footer.component";
+import { FirstComponent } from "./content/first/first.component";
+import { SecondComponent } from "./content/second/second.component";
+import { ThirdComponent } from "./content/third/third.component";
+import { FourthComponent } from "./content/fourth/fourth.component";
+import { FiveComponent } from "./content/five/five.component";
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -21,12 +22,13 @@ import {CommonModule} from "@angular/common";
     FirstComponent,
     SecondComponent,
     ThirdComponent,
-    FourthComponent
+    FourthComponent,
+    FiveComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CommonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

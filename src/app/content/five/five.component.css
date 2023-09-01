@@ -90,6 +90,7 @@
   border-left: 3px solid #fff6e0;
   background-color: inherit;
   width: 99%;
+  margin: 6px;
 
 }
 
@@ -105,6 +106,7 @@
   background-color: #61677A;
   color: #fff6e0;
   cursor: pointer;
+  margin-left: 20px;
 }
 
 .recycleBin:hover {
@@ -112,3 +114,15 @@
   color: red;
   cursor: pointer;
 }
+
+.removeAndCheckbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: nowrap row;
+  background-color: #61677A;
+}
+ .checkbox {
+   width: 18px;
+   height: 18px;
+ }
