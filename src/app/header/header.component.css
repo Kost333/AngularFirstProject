@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  background-color: #272829;
+  color: whitesmoke;
+}
+
+.title {
+  background-color: inherit;
+}

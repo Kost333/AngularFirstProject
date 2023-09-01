@@ -1,0 +1,45 @@
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-flow: row nowrap;
+  background-color: #FFF6E0;
+}
+
+.checkboxes {
+  background-color: inherit;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+}
+
+.checkbox {
+  background-color: inherit;
+  cursor: pointer;
+  margin: 0 20px 12px 0;
+  padding: 0 20px 12px 0;
+  width: 80px;
+  height: 80px;
+}
+
+.bgBlue {
+  background-color: blue !important;
+}
+
+.bgRed {
+  background-color: red !important;
+}
+
+.bgGold{
+  background-color: gold !important;
+}
+
+.text {
+  border: 1px solid #272829;
+  border-radius: 6px;
+  background-color: inherit;
+  width: 30%;
+  margin: 12px;
+  padding: 12px;
+}

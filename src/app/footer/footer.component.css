@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  background-color: #61677A;
+  color: whitesmoke;
+}
+
+.title {
+  background-color: inherit;
+}

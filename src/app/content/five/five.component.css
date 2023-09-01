@@ -1,0 +1,114 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF6E0;
+}
+
+.window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: nowrap column;
+  background-color: #61677A;
+  margin: 12px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #272829;
+  min-width: 620px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: nowrap column;
+  background-color: inherit;
+  white-space: nowrap;
+  color: #fff6e0;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+.addToDo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  background-color: inherit;
+  width: 80%;
+  margin: 12px;
+  padding: 8px;
+}
+
+.inputAdd {
+  width: 100%;
+  background-color: #fff6e0;
+  color: #272829;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.inputAdd:focus {
+  outline: none;
+}
+
+.addBtn {
+  width: 20%;
+  background-color: #272829;
+  color: #fff6e0;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.addBtn:hover {
+  background-color: #3c3d3f;
+}
+
+.toDos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  background-color: inherit;
+  width: 80%;
+  margin: 12px;
+  padding: 8px;
+}
+
+.toDo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row nowrap;
+  border-left: 3px solid #fff6e0;
+  background-color: inherit;
+  width: 99%;
+
+}
+
+.titleToDo {
+  background-color: inherit;
+  color: #fff6e0;
+  font-size: 22px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.recycleBin {
+  background-color: #61677A;
+  color: #fff6e0;
+  cursor: pointer;
+}
+
+.recycleBin:hover {
+  background-color: #61677A;
+  color: red;
+  cursor: pointer;
+}

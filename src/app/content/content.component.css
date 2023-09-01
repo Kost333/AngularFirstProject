@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  background-color: #FFF6E0;
+}
+
+.routes {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-flow: row nowrap;
+  background-color: inherit;
+  width: 92%;
+}
+
+.routeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  margin: 12px 18px;
+  border: 1px solid #272829;
+  border-radius: 8px;
+  background-color: #272829;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.routeBtn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.routeBtn:active {
+  background-color: #61677A;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  background-color: inherit;
+}

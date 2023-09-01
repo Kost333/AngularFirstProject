@@ -1,0 +1,36 @@
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  background-color: #FFF6E0;
+}
+
+.text {
+  background-color: inherit;
+  width: 30%;
+  margin: 12px;
+  padding: 12px;
+}
+
+.toggleBtn {
+  background-color: #61677A;
+  color: whitesmoke;
+  border-radius: 8px;
+  margin: 12px;
+  padding: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: #272829 1px double;
+  white-space: nowrap;
+}
+
+.toggleBtn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.logo {
+  background-color: inherit;
+  margin: 20px;
+}

@@ -1,0 +1,47 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  background-color: #FFF6E0;
+}
+
+.image {
+  background-color: inherit;
+  width: 50%;
+  height: 50%;
+  margin: 24px 0 0 0;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  background-color: inherit;
+  width: 50%;
+  height: 100%;
+  margin: 0 24px;
+}
+
+.changeImg {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 50px;
+  cursor: pointer;
+  background-color: inherit;
+  border: none;
+}
+
+.changeImg:hover {
+  background-color: #efe7d2;
+  opacity: 0.8;
+}
+
+.changeImg span {
+  background-color: inherit;
+}
+
